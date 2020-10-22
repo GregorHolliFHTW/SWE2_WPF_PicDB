@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="WpfPicDB.Views.ImagePreview"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfPicDB.Views"
+             mc:Ignorable="d">
+    <Grid>
+        <Border Margin="5" BorderThickness=".5, .5, .5, .5" BorderBrush="DarkGray">
+            <Image Source="{Binding ImageBitmap}" Margin="0,10"/>
+        </Border>
+    </Grid>
+</UserControl>
